@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url(../image/header_bg1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 410px;
+  background-size: cover;
+  background-position: 0, 0, 0, 10px;
+}
+/* HEADER START */
+header {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  color: white;
+  font-family: Roboto Slab;
+  font-size: 70px;
+  font-size: 700;
+  text-align: center;
+}
+
+.name_position {
+  color: rgb(109, 219, 154);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Roboto Slab;
+  text-align: center;
+  margin-top: 50px;
+}
+.nav1 nav {
+  display: inline;
+  float: inline-end;
+  justify-content: space-around;
+  color: white;
+  margin-right: 25px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.inst_image button {
+  color: white;
+}
+.inst_image button {
+  width: 20px;
+  height: 10px;
+}
+.button_inst {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://pibig.info/uploads/posts/2022-11/1668798733_3-pibig-info-p-beloe-instagram-4.png);
+  background-size: cover;
+  background-position: center;
+  text-indent: -9999px;
+  display: inline;
+  justify-content: end;
+}
+.button_whatsapp {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-qIhZxvY5vow857SabBB3IFRCA_0yFLyPNg&usqp=CAU);
+  background-size: cover;
+  background-position: center;
+  text-indent: -9999px;
+  display: inline;
+  justify-content: end;
+}
+.header_links {
+  height: 100px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+/* HEADER FINISH */
+/* SECTION-1 START */
+.section-1 {
+  display: flex;
+  padding: 100px 0;
+  justify-content: space-around;
+}
+.section-1_left {
+  width: 50%;
+  max-width: 360px;
+}
+.section-1_left h3 {
+  color: rgb(73, 175, 115);
+  font-family: Roboto Slab;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.section-1_left p {
+  color: rgb(66, 84, 117);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.section-1_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-1_right span {
+  color: rgb(28, 28, 29);
+  font-family: Roboto Slab;
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.section-1_right p {
+  color: rgb(73, 175, 115);
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Lato;
+  text-align: center;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* SECTION-1 FINISH */
+/* SECTION-2 START */
+.section-2 {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+.section-2_left {
+  width: 65%;
+}
+.section-2_left h3 {
+  color: black;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: Roboto Slab;
+}
+.section-2_left p {
+  color: rgb(28, 28, 29);
+  line-height: 1.5;
+  margin-top: 20px;
+  font-family: Loto;
+  font-size: 18px;
+  text-align: left;
+}
+.section-2_right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.section-2_expirience {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-around;
+}
+.section-2_expirience_secondblock {
+  display: flex;
+  justify-content: space-around;
+}
+.section-2_logos span {
+  color: rgb(73, 175, 115);
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Roboto Slab;
+  font-size: 50px;
+  font-weight: 700;
+}
+.section-2_logos p {
+  color: rgb(28, 28, 29);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 19px;
+  font-family: Roboto Slab;
+  font-weight: 700;
+}
+/* SECTION-2 FINISH */
+/* SECTION-3 START */
+.section-3 {
+  width: 100%;
+  height: 600px;
+  padding: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.section-3_left h4 {
+  color: black;
+  font-family: Roboto Slab;
+  font-size: 31px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.section-3_left p {
+  color: black;
+  line-height: 2;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+}
+.section-3_right {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  box-sizing: border-box;
+  width: 120%;
+  padding: 0px 45px 0px 25px;
+  height: 50px;
+  margin: 20px 0px 0px;
+  font-size: 16px;
+  appearance: none;
+  border-radius: 50px;
+  border: 1px solid rgba(28, 28, 29, 0.3);
+  color: rgb(28, 28, 29);
+  font-family: Lato;
+  font-weight: 400;
+}
+.input_massage {
+  width: 122%;
+  resize: none;
+  padding: 25px;
+  margin: 20px 0px 30px;
+  color: rgb(28, 28, 29);
+  font-size: 16px;
+  box-sizing: border-box;
+  appearance: none;
+  border-radius: 25px;
+  height: 200px;
+  border: 1px solid rgba(28, 28, 29, 0.3);
+  font-family: Lato;
+  font-weight: 400;
+}
+button {
+  max-width: 200px;
+  border: none;
+  border-radius: 50px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+      -180deg,
+      rgb(109, 219, 154) 0%,
+      rgb(73, 175, 115) 96%
+    )
+    no-repeat;
+  box-shadow: rgba(73, 175, 115, 0.5) 0px 4px 10px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0px 40px;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  word-break: initial;
+  outline: none;
+}
+
+/* SECTION-3 FINISH */
